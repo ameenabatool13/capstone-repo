@@ -1,9 +1,11 @@
-   # Project Conventions
+# Project Conventions
 
-   ## Stack
-   - (fill in your language/framework, e.g. Node.js, Python, React)
+## Stack
+- HTML, CSS, and vanilla JavaScript (no frameworks or build tools)
 
-   ## Conventions
+docs: fill in project stack in CLAUDE.md
+
+ ## Conventions
    - Use Conventional Commits for all commit messages
    - Keep functions small and readable
    - Write clear variable names
