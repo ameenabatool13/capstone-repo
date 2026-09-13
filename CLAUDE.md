@@ -1,10 +1,12 @@
-   # Project Conventions
+# Project Conventions
 
-   ## Stack
-   - (fill in your language/framework, e.g. Node.js, Python, React)
+## Stack
 
-   ## Conventions
-   - Use Conventional Commits for all commit messages
-   - Keep functions small and readable
-   - Write clear variable names
+- HTML, CSS, and vanilla JavaScript (no frameworks or build tools)
+
+## Conventions
+
+- Use Conventional Commits for all commit messages
+- Keep functions small and readable
+- Write clear variable names
    
