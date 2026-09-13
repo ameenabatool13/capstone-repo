@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Settings Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="form-wrapper">
+    <h1>Account Settings</h1>
+    <form id="settingsForm" novalidate>
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" aria-describedby="nameError" />
+        <span class="error" id="nameError"></span>
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" aria-describedby="emailError" />
+        <span class="error" id="emailError"></span>
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" aria-describedby="passwordError" />
+        <span class="error" id="passwordError"></span>
+      </div>
+
+      <button type="submit" id="submitBtn" disabled>Submit</button>
+      <p class="success" id="successMessage" role="status"></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
